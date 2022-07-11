@@ -1,0 +1,48 @@
+.wrapper {
+
+}
+.window {
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+
+}
+.window__nav {
+}
+.nav {
+}
+.nav__comandbuttons {
+}
+.comandbuttons {
+}
+.comandbuttons__item {
+}
+.nav__sourse {
+}
+.window__treads {
+}
+.treads {
+}
+.window__chat {
+    flex: 1 1 870px;
+}
+.chat {
+}
+.window__profile {
+    flex: 0 1 201px;
+    height: 801px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+
+}
+.profile__info{
+    height: 601px;
+    justify-self: flex-end;
+    background: linear-gradient(#d8dadd, #d0d3d7);
+}
