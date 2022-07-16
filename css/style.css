@@ -71,7 +71,7 @@
 
 }
 .treads {
-    width: 262px;
+    flex: 0 0 262px;
     background: linear-gradient(#525152, #202123);
     font-family: 'Lato';
     font-style: normal;
@@ -182,7 +182,7 @@
 .chat {
 }
 .window__profile {
-    flex: 0 1 201px;
+    flex: 0 0 200px;
     height: 800px;
 }
 .profile {
@@ -190,10 +190,88 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: stretch;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+
 
 }
 .profile__info{
-   
+    height: 623px;
     justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(#d8dadd, #d0d3d7);
+    padding-left: 19px;
+}
+
+.info__main {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; 
+    margin-top: 15px;
+}
+.name {
+
+}
+.status {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #70CC16;
+    margin-left: 6px;
+
+}
+.post {
+    margin-top: 5px;
+}
+.sn {
+    display: flex;
+    margin-top: 20px;
+}
+.sn__item {
+    margin-right: 6px;
+}
+.butottons {
+    display: flex;
+
+}
+.message {
+    width: 134px;
+    height: 25px;
+    background: #3577EF;
+    border-radius: 4px;
+    margin: 19px 3px 14px 0;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.message-alt {
+    width: 25px;
+    padding: 9px;
+}
+.ui{
+    height: 15px;
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5F6164;
+}
+.userinfo-text{
+    height: 17px;
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.close-slider{
+
 }
