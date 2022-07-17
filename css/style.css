@@ -1,3 +1,7 @@
+*{
+font-family: 'Lato';
+font-style: normal;
+}
 .wrapper {
     max-width: 1400px;
     margin: 0 auto;
@@ -273,5 +277,130 @@
     color: #000000;
 }
 .close-slider{
+    align-items: flex-end;
+    margin: auto 24px 29px auto;
+}
 
+.chat__header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    padding: 0 23px;
+    border-bottom: 1px solid #d6d6d6 ;
+}
+.ch__item{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #A4A4A4;
+}
+.chat__hame { 
+    height: 24px;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.chat__hame img{
+    height: 15px;
+    width: 15px;
+    margin: 4px 5px;
+}
+.chat__counter {
+    height: 17px;
+}
+.chat__counter img{
+    width: 10.5px;
+    height: 15px;
+    margin: 6px;
+}
+
+.chat__search {
+    justify-content: space-between;
+    width: 241px;
+    height: 31px;
+    margin: 0 24px; 
+    padding: 9px 9px 8px 16px;
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+}
+.chat__search img{
+    width: 15.5px;
+    height: 15.5px;
+}
+.chat__settings {
+}
+.chat__settings img{
+    height: 15px;
+    width: 17px;
+}
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 21px;
+    width: 5px;
+    margin-left: 20px;
+
+}
+
+.settings__item {
+    width: 4.5px;
+    height: 4.5px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+
+}
+.chat__wall {
+    height: 644px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px;
+}
+.chat__wall {
+}
+.wall {
+}
+.wall__msg {
+}
+.wall__sep {
+    align-self: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #8D8D8D;
+}
+.wall__sep:before,
+.wall__sep::after {
+
+  }
+
+.chat__input {
+    display: flex;
+    padding-left: 23px;
+    padding-top: 22px;
+    border-top: 1px solid #d6d6d6;
+}
+.ci__items {
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8D8D8D;
+}
+.ci__items:last-child{
+    margin-left: auto;
+    margin-right: 23px ;
+}
+.ci__img {
+    height: 22px;
+    height: 22px;
+    object-fit: contain;
 }
