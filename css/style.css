@@ -201,9 +201,9 @@ font-style: normal;
 
 }
 .profile__photo{
-    height: 200px;
-    width: 200px;
+    
 }
+
 .profile__info{
     height: 623px;
     justify-self: flex-end;
