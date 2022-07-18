@@ -201,9 +201,15 @@ font-style: normal;
 
 }
 .profile__photo{
-    
+    height: 177px;
+    width: 200px;
 }
 
+.profile__photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .profile__info{
     height: 623px;
     justify-self: flex-end;
